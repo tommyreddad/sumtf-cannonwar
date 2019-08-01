@@ -1,9 +1,10 @@
 # sumtf-cannonwar
 
-Super Ultra Mambo Tango Foxtrot Cannon Wars. A small game written as
-part of the course COMP 521 which I took at McGill University ages
-ago, way back in 2012. Mostly, a C++ exercise involving a
-demonstration of [Perlin
+Super Ultra Mambo Tango Foxtrot Cannon Wars. (For those scratching
+their heads, an [EarthBound](https://en.wikipedia.org/wiki/EarthBound)
+reference.) A small game written as part of the course COMP 521 which
+I took at McGill University ages ago, way back in 2012. Mostly, a C++
+exercise involving a demonstration of [Perlin
 noise](https://en.wikipedia.org/wiki/Perlin_noise) for procedural
 terrain generation, and including a very basic physics system with
 collision resolution between circular entities.
