@@ -1,10 +1,12 @@
 # sumtf-cannonwar
 
-Super Ultra Mambo Tango Foxtrot Cannonwar. A small game written as
+Super Ultra Mambo Tango Foxtrot Cannon Wars. A small game written as
 part of the course COMP 521 which I took at McGill University ages
-ago, way back in 2012. Mostly, a demonstration of Perlin noise for
-procedural terrain generation, and including a very basic physics
-system.
+ago, way back in 2012. Mostly, a C++ exercise involving a
+demonstration of [Perlin
+noise](https://en.wikipedia.org/wiki/Perlin_noise) for procedural
+terrain generation, and including a very basic physics system with
+collision resolution between circular entities.
 
 # Building
 
@@ -32,6 +34,16 @@ In demonstration mode, the following 3 demonstrations are presented:
 1. Game over after a direct hit on a cannon.
 
 The demonstration lasts until each of these 3 complete, or a timeout occurs.
+
+# Gameplay
+
+Use the Up/Down arrow keys to tilt your cannon. Use the Left/Right
+arrow keys to change your cannon's firepower. Hit spacebar to fire!
+
+You win if your cannonball hits the enemy cannon before touching the
+ground. There's not much of a challenge, since the enemy cannon is
+totally stationary. Instead, try having fun with the wind and
+collision physics!
 
 # Details
 
