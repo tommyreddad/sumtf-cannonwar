@@ -1,0 +1,22 @@
+# A map layout contains the following data:
+#  PERSISTENCE: a persistence value for Perlin noise
+#  AMPLITUDE_INIT: initial ampltiude for Perlin noise. Allows you to control how much noise is added to the given set of points.
+#  SHIFT: a shifting of the points passed to the Perlin noise generator. Practically serves as a random seed.
+#  WIDTH: the map width
+#  HEIGHT: the map height
+#  x,y: a point on the map
+#
+# One may provide a list of points which are then modified through Perlin noise on game startup.
+# The points MUST be provided in increasing x! Otherwise, bad things will happen
+PERSISTENCE=0.7
+AMPLITUDE_INIT=0.1
+SHIFT=0.0
+WIDTH=640
+HEIGHT=480
+OCTAVES=8
+# The following points describe 2 mountains separated by a river
+0,200
+220,300
+320,0
+420,300
+640,200
