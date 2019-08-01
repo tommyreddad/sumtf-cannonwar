@@ -8,9 +8,9 @@ system.
 
 # Building
 
-Requires [SFML2][https://www.sfml-dev.org/] (and its dependencies) to
+Requires [SFML2](https://www.sfml-dev.org/) (and its dependencies) to
 compile. On Arch Linux, this is the package
-[sfml][https://www.archlinux.org/packages/community/x86_64/sfml/].
+[sfml](https://www.archlinux.org/packages/community/x86_64/sfml/).
 
 To compile, simply run `make`.
 
@@ -23,7 +23,7 @@ sumtf-cannonwars [-d] [-m mapname]
 ~~~
 
 * `-d` specifies demonstration mode
-* `-m mapname` specifies the name of the map (in the `./maps/' directory) to be loaded. If this option is not specified, the map `default.map' will be loaded.
+* `-m mapname` specifies the name of the map (in the `./maps/` directory) to be loaded. If this option is not specified, the map `default.map` will be loaded.
 
 # Demonstration Mode
 In demonstration mode, the following 3 demonstrations are presented:
